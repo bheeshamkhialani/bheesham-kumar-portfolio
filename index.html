@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bheesham Kumar - Computer Science graduate and Web Developer.">
+  <meta name="theme-color" content="#101827">
+
+  <title>Bheesham Kumar | Web Developer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="page-progress" id="pageProgress"></div>
+
+  <!-- NAVBAR -->
+  <header class="site-header" id="header">
+    <nav class="nav container">
+
+      <a class="logo" href="#home">
+        bheesham<span>.</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#education">Education</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        <a class="nav-cta" href="#contact">
+          Let's talk <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </div>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION - DARK -->
+    <section class="hero section-dark" id="home">
+
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+
+      <div class="container hero-grid">
+
+        <div class="hero-content reveal">
+
+          <div class="availability">
+            <span class="availability-dot"></span>
+            Open to web developer roles & internships
+          </div>
+
+          <p class="eyebrow">
+            <span class="eyebrow-line"></span>
+            HELLO, I'M BHEESHAM
+          </p>
+
+          <h1>
+            Building digital<br>
+            experiences that
+            <span class="gradient-text">matter.</span>
+          </h1>
+
+          <h2 class="hero-role">
+            I'm a <span id="role">Web Developer</span>
+            <span class="typing-cursor">|</span>
+          </h2>
+
+          <p class="hero-description">
+            I create clean, responsive and user-focused web applications.
+            I enjoy turning ideas into practical digital products through
+            thoughtful design and reliable code.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-gradient">
+              Explore my work
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a href="Bheesham's_Resume-6.pdf" download class="btn btn-outline">
+              <i class="fa-solid fa-download"></i>
+              Download CV
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <span>FIND ME ON</span>
+
+            <a href="https://github.com/bheeshamkhialani"
+               target="_blank" rel="noopener" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/bheesham-kumar-82737740a/"
+               target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a href="mailto:bheeshamk95@mail.com" aria-label="Email">
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="hero-visual reveal">
+
+          <div class="portrait-frame">
+            <div class="portrait-glow"></div>
+
+            <img
+              src="photo.png"
+              alt="Portrait of Bheesham Kumar"
+              class="hero-photo"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='grid';"
+            >
+
+            <div class="photo-fallback">BK</div>
+
+            <div class="portrait-label">
+              <span class="label-icon">
+                <i class="fa-solid fa-code"></i>
+              </span>
+
+              <span>
+                <strong>Web Developer</strong>
+                <small>Building for the web</small>
+              </span>
+            </div>
+          </div>
+
+          <div class="floating-chip chip-top">
+            <i class="fa-brands fa-react"></i>
+            React.js
+          </div>
+
+          <div class="floating-chip chip-bottom">
+            <i class="fa-solid fa-layer-group"></i>
+            Full-stack mindset
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="container hero-stats">
+
+        <div class="stat">
+          <strong>05<span>+</span></strong>
+          <small>Projects built</small>
+        </div>
+
+        <div class="stat">
+          <strong>04</strong>
+          <small>Database technologies</small>
+        </div>
+
+        <div class="stat">
+          <strong>04</strong>
+          <small>Programming languages</small>
+        </div>
+
+        <div class="stat">
+          <strong>03</strong>
+          <small>Certifications</small>
+        </div>
+
+      </div>
+
+      <a href="#about" class="scroll-cue">
+        <span></span>
+        SCROLL TO EXPLORE
+      </a>
+
+    </section>
+
+
+    <!-- ABOUT SECTION - LIGHT -->
+    <section class="section section-light about-section" id="about">
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <p class="eyebrow">
+            <span class="eyebrow-line"></span>
+            A LITTLE ABOUT ME
+          </p>
+
+          <h2>
+            Curiosity meets
+            <span class="accent-text">creation.</span>
+          </h2>
+
+          <p class="section-intro">
+            A developer who enjoys learning, building and solving
+            real-world problems with technology.
+          </p>
+        </div>
+
+        <div class="about-layout">
+
+          <div class="about-copy reveal">
+
+            <div class="about-number">
+              01 <span>/ ABOUT</span>
+            </div>
+
+            <h3>Hey, I'm Bheesham Kumar.</h3>
+
+            <p>
+              I'm a Computer Science graduate from Iqra University,
+              Karachi, with an interest in building modern web applications.
+              I work across frontend development and backend technologies,
+              and enjoy creating interfaces that are both useful and easy
+              to navigate.
+            </p>
+
+            <p>
+              My experience includes React.js and Next.js for frontend
+              development, Django and FastAPI for backend development,
+              and SQL/NoSQL databases. I also enjoy exploring AI-powered
+              features and integrating APIs into web products.
+            </p>
+
+            <a href="#contact" class="text-link">
+              Let's build something
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+          </div>
+
+          <div class="about-cards reveal">
+
+            <article class="info-card">
+              <span class="info-icon">
+                <i class="fa-solid fa-laptop-code"></i>
+              </span>
+              <h3>Frontend Development</h3>
+              <p>
+                Responsive interfaces with a focus on usability,
+                accessibility and clean design.
+              </p>
+            </article>
+
+            <article class="info-card">
+              <span class="info-icon">
+                <i class="fa-solid fa-server"></i>
+              </span>
+              <h3>Backend Development</h3>
+              <p>
+                Building application logic, APIs and dependable
+                server-side functionality.
+              </p>
+            </article>
+
+            <article class="info-card">
+              <span class="info-icon">
+                <i class="fa-solid fa-database"></i>
+              </span>
+              <h3>Data & Databases</h3>
+              <p>
+                Working with structured data and SQL/NoSQL
+                database technologies.
+              </p>
+            </article>
+
+            <article class="info-card">
+              <span class="info-icon">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+              </span>
+              <h3>AI Integration</h3>
+              <p>
+                Exploring practical ways to connect intelligent
+                features with web applications.
+              </p>
+            </article>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- PROJECTS SECTION - DARK -->
+    <section class="section section-dark projects-section" id="projects">
+
+      <div class="container">
+
+        <div class="section-heading section-heading-light reveal">
+
+          <p class="eyebrow">
+            <span class="eyebrow-line"></span>
+            SELECTED WORK
+          </p>
+
+          <h2>
+            Ideas turned into
+            <span class="gradient-text">projects.</span>
+          </h2>
+
+          <p class="section-intro">
+            A selection of projects that reflect my interests in web
+            development, AI and practical problem-solving.
+          </p>
+
+        </div>
+
+        <div class="project-filters reveal">
+          <button class="filter-btn active" data-filter="all">All projects</button>
+          <button class="filter-btn" data-filter="web">Web development</button>
+          <button class="filter-btn" data-filter="ai">AI & technology</button>
+        </div>
+
+        <div class="project-grid">
+
+          <article class="project-card reveal" data-category="ai">
+
+            <div class="project-top">
+              <span class="project-index">01 / AI</span>
+              <span class="project-symbol">
+                <i class="fa-solid fa-user-check"></i>
+              </span>
+            </div>
+
+            <div class="project-art art-violet">
+              <i class="fa-solid fa-file-circle-check"></i>
+              <span>TalentVerify AI</span>
+            </div>
+
+            <div class="project-body">
+              <p class="project-type">AI-POWERED APPLICATION</p>
+              <h3>TalentVerify AI</h3>
+              <p>
+                An AI-focused recruitment concept designed to support
+                candidate evaluation and streamline parts of the
+                hiring workflow.
+              </p>
+              <div class="tag-list">
+                <span>AI</span>
+                <span>Web App</span>
+                <span>Automation</span>
+              </div>
+            </div>
+
+          </article>
+
+
+          <article class="project-card reveal" data-category="web">
+
+            <div class="project-top">
+              <span class="project-index">02 / WEB</span>
+              <span class="project-symbol">
+                <i class="fa-solid fa-people-group"></i>
+              </span>
+            </div>
+
+            <div class="project-art art-orange">
+              <i class="fa-solid fa-globe"></i>
+              <span>Suthar Community</span>
+            </div>
+
+            <div class="project-body">
+              <p class="project-type">COMMUNITY WEBSITE</p>
+              <h3>Suthar Community Pakistan</h3>
+              <p>
+                A community-focused website created to present information,
+                connect people and make community resources easier to access.
+              </p>
+              <div class="tag-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+
+          </article>
+
+
+          <article class="project-card reveal" data-category="ai">
+
+            <div class="project-top">
+              <span class="project-index">03 / AI</span>
+              <span class="project-symbol">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </span>
+            </div>
+
+            <div class="project-art art-blue">
+              <i class="fa-solid fa-compass"></i>
+              <span>SkillQuest AI</span>
+            </div>
+
+            <div class="project-body">
+              <p class="project-type">LEARNING PLATFORM</p>
+              <h3>SkillQuest AI</h3>
+              <p>
+                An AI-assisted learning concept focused on helping users
+                explore skills and navigate learning opportunities.
+              </p>
+              <div class="tag-list">
+                <span>AI</span>
+                <span>Education</span>
+                <span>Web App</span>
+              </div>
+            </div>
+
+          </article>
+
+
+          <article class="project-card reveal" data-category="ai">
+
+            <div class="project-top">
+              <span class="project-index">04 / TECH</span>
+              <span class="project-symbol">
+                <i class="fa-solid fa-server"></i>
+              </span>
+            </div>
+
+            <div class="project-art art-green">
+              <i class="fa-solid fa-chart-line"></i>
+              <span>Smart Data Center</span>
+            </div>
+
+            <div class="project-body">
+              <p class="project-type">ANOMALY DETECTION</p>
+              <h3>AI Smart Data Center Anomaly Detection</h3>
+              <p>
+                A technology project exploring anomaly detection to
+                identify unusual patterns in data-center-related metrics.
+              </p>
+              <div class="tag-list">
+                <span>AI</span>
+                <span>Data Analysis</span>
+                <span>Detection</span>
+              </div>
+            </div>
+
+          </article>
+
+
+          <article class="project-card reveal" data-category="web">
+
+            <div class="project-top">
+              <span class="project-index">05 / WEB</span>
+              <span class="project-symbol">
+                <i class="fa-solid fa-heart-pulse"></i>
+              </span>
+            </div>
+
+            <div class="project-art art-pink">
+              <i class="fa-solid fa-hand-holding-heart"></i>
+              <span>LifeLink</span>
+            </div>
+
+            <div class="project-body">
+              <p class="project-type">SOCIAL IMPACT PLATFORM</p>
+              <h3>LifeLink</h3>
+              <p>
+                A platform concept designed around connecting people
+                with useful support and community-oriented resources.
+              </p>
+              <div class="tag-list">
+                <span>Web App</span>
+                <span>UI/UX</span>
+                <span>Problem Solving</span>
+              </div>
+            </div>
+
+          </article>
+
+        </div>
+
+        <p class="project-note">
+          <i class="fa-solid fa-circle-info"></i>
+          Add a project link to a card only when its live demo
+          or repository is available.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- SKILLS SECTION - LIGHT -->
+    <section class="section section-light skills-section" id="skills">
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+
+          <p class="eyebrow">
+            <span class="eyebrow-line"></span>
+            WHAT I WORK WITH
+          </p>
+
+          <h2>
+            Tools of my
+            <span class="accent-text">trade.</span>
+          </h2>
+
+          <p class="section-intro">
+            Technologies and tools I use to design, develop and
+            improve digital products.
+          </p>
+
+        </div>
+
+        <div class="skills-grid">
+
+          <article class="skill-card reveal">
+            <div class="skill-card-head">
+              <span class="skill-icon">
+                <i class="fa-solid fa-display"></i>
+              </span>
+              <span class="skill-count">01</span>
+            </div>
+            <h3>Frontend</h3>
+            <p>Creating polished, responsive user interfaces.</p>
+            <div class="skill-pills">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Tailwind CSS</span>
+              <span>Bootstrap</span>
+              <span>JavaScript</span>
+              <span>React.js</span>
+              <span>Next.js</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card-head">
+              <span class="skill-icon">
+                <i class="fa-solid fa-gears"></i>
+              </span>
+              <span class="skill-count">02</span>
+            </div>
+            <h3>Backend</h3>
+            <p>Developing application logic and APIs.</p>
+            <div class="skill-pills">
+              <span>Python</span>
+              <span>Django</span>
+              <span>FastAPI</span>
+              <span>REST APIs</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card-head">
+              <span class="skill-icon">
+                <i class="fa-solid fa-database"></i>
+              </span>
+              <span class="skill-count">03</span>
+            </div>
+            <h3>Databases</h3>
+            <p>Storing, organizing and working with application data.</p>
+            <div class="skill-pills">
+              <span>SQL</span>
+              <span>MySQL</span>
+              <span>PostgreSQL</span>
+              <span>NoSQL</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card-head">
+              <span class="skill-icon">
+                <i class="fa-solid fa-terminal"></i>
+              </span>
+              <span class="skill-count">04</span>
+            </div>
+            <h3>Languages & Tools</h3>
+            <p>Core programming and everyday development tools.</p>
+            <div class="skill-pills">
+              <span>C</span>
+              <span>C++</span>
+              <span>Python</span>
+              <span>JavaScript</span>
+              <span>Git</span>
+              <span>GitHub</span>
+              <span>Figma</span>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- EDUCATION SECTION - DARK -->
+    <section class="section section-dark education-section" id="education">
+
+      <div class="container">
+
+        <div class="section-heading section-heading-light reveal">
+
+          <p class="eyebrow">
+            <span class="eyebrow-line"></span>
+            THE LEARNING JOURNEY
+          </p>
+
+          <h2>
+            Learning is a
+            <span class="gradient-text">constant.</span>
+          </h2>
+
+          <p class="section-intro">
+            My academic background and professional learning milestones.
+          </p>
+
+        </div>
+
+        <div class="education-layout">
+
+          <div class="education-main reveal">
+
+            <div class="timeline-line"></div>
+
+            <article class="timeline-item">
+
+              <span class="timeline-dot">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </span>
+
+              <div class="timeline-card">
+                <span class="timeline-date">OCT 2022 — FEB 2026</span>
+
+                <h3>Bachelor of Computer Science</h3>
+
+                <p class="timeline-place">
+                  <i class="fa-solid fa-building-columns"></i>
+                  Iqra University, Karachi
+                </p>
+
+                <p>
+                  Studied core computer science concepts, software
+                  development and technologies for building practical
+                  applications.
+                </p>
+              </div>
+
+            </article>
+
+            <article class="timeline-item">
+
+              <span class="timeline-dot">
+                <i class="fa-solid fa-certificate"></i>
+              </span>
+
+              <div class="timeline-card">
+                <span class="timeline-date">CERTIFICATIONS & LEARNING</span>
+
+                <h3>Continuous Skill Development</h3>
+
+                <p>
+                  Completed additional learning and certification
+                  activities to strengthen technical and professional skills.
+                </p>
+              </div>
+
+            </article>
+
+          </div>
+
+          <aside class="learning-panel reveal">
+
+            <span class="panel-icon">
+              <i class="fa-solid fa-award"></i>
+            </span>
+
+            <p class="panel-kicker">KEEP GROWING</p>
+
+            <h3>Learning beyond the classroom.</h3>
+
+            <p>
+              I believe consistent learning, practical projects and
+              curiosity are important parts of becoming a better developer.
+            </p>
+
+            <div class="learning-stat">
+              <strong>03</strong>
+              <span>Certifications listed</span>
+            </div>
+
+          </aside>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT SECTION - LIGHT -->
+    <section class="section section-light contact-section" id="contact">
+
+      <div class="container">
+
+        <div class="contact-panel reveal">
+
+          <div class="contact-copy">
+
+            <p class="eyebrow">
+              <span class="eyebrow-line"></span>
+              HAVE A PROJECT IN MIND?
+            </p>
+
+            <h2>
+              Let's make something
+              <span class="accent-text">great.</span>
+            </h2>
+
+            <p>
+              I'm open to discussing web development opportunities,
+              collaborations and interesting ideas. Feel free to get in touch.
+            </p>
+
+            <a href="mailto:bheeshamk95@mail.com" class="btn btn-gradient">
+              Start a conversation
+              <i class="fa-solid fa-paper-plane"></i>
+            </a>
+
+          </div>
+
+          <div class="contact-details">
+
+            <a href="mailto:bheeshamk95@mail.com" class="contact-item">
+
+              <span class="contact-icon">
+                <i class="fa-regular fa-envelope"></i>
+              </span>
+
+              <span>
+                <small>EMAIL ME</small>
+                <strong>bheeshamk95@mail.com</strong>
+              </span>
+
+              <i class="fa-solid fa-arrow-up-right-from-square contact-arrow"></i>
+
+            </a>
+
+            <div class="contact-item">
+              <span class="contact-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </span>
+              <span>
+                <small>LOCATION</small>
+                <strong>Karachi, Pakistan</strong>
+              </span>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon">
+                <i class="fa-solid fa-briefcase"></i>
+              </span>
+              <span>
+                <small>AVAILABILITY</small>
+                <strong>Open to opportunities</strong>
+              </span>
+            </div>
+
+            <div class="contact-socials">
+
+              <a href="https://github.com/bheeshamkhialani"
+                 target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+
+              <a href="https://www.linkedin.com/in/bheesham-kumar-82737740a/"
+                 target="_blank" rel="noopener" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER - DARK -->
+  <footer class="footer section-dark">
+
+    <div class="container">
+
+      <div class="footer-main">
+
+        <div class="footer-brand">
+
+          <a href="#home" class="logo">
+            bheesham<span>.</span>
+          </a>
+
+          <p>
+            Building modern, responsive and user-friendly web applications
+            with clean code and creative solutions. Always learning,
+            always creating.
+          </p>
+
+          <div class="footer-socials">
+
+            <a href="https://github.com/YOUR_GITHUB_USERNAME"
+               target="_blank" rel="noopener" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="https://linkedin.com/in/YOUR_LINKEDIN_ID"
+               target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a href="mailto:bheeshamk95@mail.com" aria-label="Email">
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="footer-column">
+          <h3>Explore</h3>
+          <a href="#home">Home</a>
+          <a href="#about">About me</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+        </div>
+
+        <div class="footer-column">
+          <h3>Expertise</h3>
+          <a href="#skills">Frontend development</a>
+          <a href="#skills">Backend development</a>
+          <a href="#skills">Databases</a>
+          <a href="#skills">AI integration</a>
+          <a href="#projects">Problem solving</a>
+        </div>
+
+        <div class="footer-column footer-touch">
+          <h3>Get in touch</h3>
+
+          <p>
+            <i class="fa-regular fa-envelope"></i>
+            bheeshamk95@mail.com
+          </p>
+
+          <p>
+            <i class="fa-solid fa-location-dot"></i>
+            Karachi, Pakistan
+          </p>
+
+          <a href="mailto:bheeshamk95@mail.com" class="footer-mail">
+            Send an email
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p>
+          © <span id="year">2026</span> Bheesham Kumar. All rights reserved.
+        </p>
+
+        <p>
+          Designed & developed with
+          <i class="fa-solid fa-heart"></i>
+          by Bheesham
+        </p>
+
+        <a href="#home">
+          Back to top
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
